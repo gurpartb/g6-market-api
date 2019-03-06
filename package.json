@@ -1,0 +1,8 @@
+{
+    "name": "g6-market-api",
+    "description": "G6 Market API",
+    "version": "1.0.0",
+    "dependencies": {
+        "express": "^4.16.4"
+    }
+}
