@@ -1,0 +1,6 @@
+
+/products
+name:
+imageUrl:
+price:
+category: [ produce, meats, dairy, grain, spices, beverage, householdGoods ]
