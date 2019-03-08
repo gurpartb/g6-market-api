@@ -6,7 +6,12 @@ app.get('/', (req, res) => res.send('Hello World!'))
 
 app.get("/products", (req, res, next) => {
     res.json(products)
-    })
+})
+
+app.get("/categories", (req, res, next) => {
+    res.json(categories)
+})
+    
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 
@@ -53,3 +58,5 @@ const oil = {
 const products = {
     'products' : [ milk, egg, bread, sugar, oil]
 }
+
+const categories = { 'categories' : ['Dairy', 'Eggs', 'Bread', 'Sugar', 'Fish'] }
